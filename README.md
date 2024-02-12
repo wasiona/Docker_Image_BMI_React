@@ -1,6 +1,3 @@
-## BMI Calculator
-
-[![Build Status](https://travis-ci.com/GermaVinsmoke/bmi-calculator.svg?branch=master)](https://travis-ci.com/GermaVinsmoke/bmi-calculator)
 # My Dockerized React App
 
 This project is a Dockerized version of an existing public repository that I cloned. It is a React app that calculates BMI.
@@ -15,13 +12,14 @@ To build the Docker image, run the following command in the project directory:
 
 ```bash
 docker build -t my-react-app-image .
-
+```
 Running the Docker Container
 To run the Docker container, use the following command:
 
-bash
+```bash
 Copy code
 docker run -p 8080:80 my-react-app-image
+```
 Access the app in your browser at http://localhost:8080.
 
 Acknowledgments
